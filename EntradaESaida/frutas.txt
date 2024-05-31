@@ -1,0 +1,8 @@
+uva
+melao
+melancia
+pera
+banana
+maca
+laranja
+pessego
