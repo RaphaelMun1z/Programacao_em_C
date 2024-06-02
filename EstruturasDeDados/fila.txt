@@ -1,0 +1,12 @@
+Fila / Queue
+
+FIFO - First In / First Out
+
+enqueue() - Adiciona elemento a fila
+dequeue() - Remove o elemento da fila
+clear() - Limpa a fila
+
+Estrutura da fila
+head -> Cabeça da fila, indica quem é o primeiro elemento da fila
+tail -> Cauda, indica quantos elementos tem na fila
+
