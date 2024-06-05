@@ -152,11 +152,11 @@ void criarConta()
 
     strcpy(data_cadastro, "");
     strcat(data_cadastro, dia);
-    strcar(data_cadastro, "/");
+    strcat(data_cadastro, "/");
     strcat(data_cadastro, mes);
-    strcar(data_cadastro, "/");
+    strcat(data_cadastro, "/");
     strcat(data_cadastro, ano);
-    strcpy(data_cadastro, "\0");
+    strcat(data_cadastro, "\0");
 
     strcpy(cliente.dataCadastro, data_cadastro);
 
@@ -244,7 +244,7 @@ void sacar(Conta conta, float valor)
     }
     else
     {
-        printf("Saque não realizado.");
+        printf("Saque não realizado. \n");
     }
 }
 
@@ -325,7 +325,7 @@ void efetuarSaque()
         {
             float valor;
             printf("Informe o valor do saque: \n");
-            scanf("%d", &valor);
+            scanf("%f", &valor);
 
             sacar(conta, valor);
         }
@@ -357,7 +357,7 @@ void efetuarDeposito()
         {
             float valor;
             printf("Informe o valor do depósito: \n");
-            scanf("%d", &valor);
+            scanf("%f", &valor);
 
             depositar(conta, valor);
         }
